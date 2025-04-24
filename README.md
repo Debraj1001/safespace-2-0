@@ -1,61 +1,61 @@
 # SafeSpace
 
-**SafeSpace** is a modern, safety-first web application designed to help users stay protected in real-world environments by creating geo-fenced safe zones, sending emergency alerts, and storing trusted emergency contact information.
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/pnada22s-projects/v0-safe-space-q2)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/szZHw9Ka6AJ)
+
+**SafeSpace** is a real-time safety companion web app built using `v0.dev`, `Next.js`, and **Groq AI**. It empowers users, especially women, by offering intelligent features like threat detection, emergency alerts, and proactive safety monitoring.
 
 ---
 
-## 🚀 Features
+## 🔗 Live Project
 
-- **Safe Zones**  
-  Define personal safe areas with location and radius settings.
-
-- **Emergency Alerts**  
-  Instantly send alerts with real-time location to emergency contacts or guardians.
-
-- **User Profiles with Emergency Contacts**  
-  Maintain emergency contact details for quick reach-out in distress situations.
-
-- **Responsive & Accessible UI**  
-  Clean, fast, and accessible UI with theme support and animations.
+Visit the live SafeSpace app:  
+**🌐 [https://safespace-2-0.vercel.app](https://safespace-2-0.vercel.app)**
 
 ---
 
-## 💻 Tech Stack
+## 🚀 Overview
 
-- **Frontend:** Next.js, React, TypeScript, Tailwind CSS, Radix UI, Framer Motion
-- **Backend & Auth:** Supabase (PostgreSQL, Auth, Realtime)
-- **Forms & Validation:** React Hook Form, Zod
-- **UI/UX Enhancements:** Lucide React, CMDK, Sonner, Vaul
-- **Data Visualization:** Recharts
-- **Package Manager:** PNPM
+This repository automatically syncs with your deployed chats on [v0.dev](https://v0.dev). Any modifications made via the v0 editor will be pushed to this repository and deployed through Vercel.
+
+Continue editing your app:  
+**🛠 [v0.dev Editor](https://v0.dev/chat/projects/szZHw9Ka6AJ)**
 
 ---
 
-## 📂 Project Structure
+## 🧠 Groq AI Integration
 
-- `schema.sql` – SQL schema for users, safe zones, and alerts
-- `components/` – Reusable UI components
-- `pages/` – Next.js routes
-- `middleware.ts` – Middleware logic (e.g., auth handling)
-- `tailwind.config.ts` – Tailwind CSS setup
-- `package.json` – Project dependencies and scripts
+SafeSpace uses **Groq AI** for ultra-fast, intelligent safety features:
 
----
+- **Text Analysis**: Detects harmful or concerning language in chats and alerts users.
+- **Audio Monitoring**: Recognizes distress sounds and initiates emergency protocols.
+- **Safe Zones**: Uses AI suggestions for frequently visited areas to establish safety zones.
+- **Emergency Alerts**: Instantly sends AI-generated context-aware messages to emergency contacts, including location data.
 
-## 🌍 Real-Life Use Cases
-
-- Students walking alone at night
-- Travelers in unfamiliar cities
-- Workers in remote or hazardous areas
-- Anyone needing a personal emergency support system
+Groq's low-latency inference enables real-time safety insights, making SafeSpace a truly proactive safety assistant.
 
 ---
 
-## 🛠️ Getting Started
+## 🛠 Technologies Used
 
-```bash
-# Install dependencies
-pnpm install
+`Next.js`, `v0.dev`, `Tailwind CSS`, `Groq AI`, `JavaScript`, `Vercel`, `TypeScript`, `React`, `AI SDK`, `Geolocation API`
 
-# Start development server
-pnpm dev
+---
+
+## 📦 Deployment
+
+This project is deployed via [Vercel](https://vercel.com):
+
+🔗 [https://vercel.com/pnada22s-projects/v0-safe-space-q2](https://vercel.com/pnada22s-projects/v0-safe-space-q2)
+
+---
+
+## 🤝 Contributing
+
+Want to help improve SafeSpace or add new safety features? Feel free to fork this repo and submit a pull request!
+
+---
+
+## 📄 License
+
+MIT License © 2025 SafeSpace Team
